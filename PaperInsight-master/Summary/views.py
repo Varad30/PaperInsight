@@ -27,8 +27,8 @@ nltk.download('punkt')
 
 import convertapi
 
-convertapi.api_secret = 'fms7BZSqPIeSFoAc'
-genai.configure(api_key="AIzaSyAvHF1PY6sZe0VJmB4QiV6NMi_UpTu1vpo")
+convertapi.api_secret = ''
+genai.configure(api_key="")
 
 def remove_stopwords(text):
     stop_words = set(stopwords.words('english'))
